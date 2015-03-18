@@ -1,0 +1,22 @@
+{
+  "name": "localip",
+  "version": "1.0.0",
+  "title": "Get local IP",
+  "main": "lib/main",
+  "description": "Get local IP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomashanacek/localip"
+  },
+  "bugs": {
+    "url": "https://github.com/tomashanacek/localip/issues"
+  },
+  "author": "Tomas Hanacek <tomashanacek@avocode.com> (https://github.com/tomashanacek)",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "coffee -o lib/ src/"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  }
+}
